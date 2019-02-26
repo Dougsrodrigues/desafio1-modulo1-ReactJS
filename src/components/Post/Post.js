@@ -5,8 +5,8 @@ import HeaderPost from "../HeaderPost/HeaderPost";
 const Post = props => (
   <div className="container">
     <li>
-      <HeaderPost name={props.name} time={props.time} />
-      <p>{props.post}</p>
+      <HeaderPost name={props.post.name} time={props.post.time} />
+      <p>{props.post.post}</p>
     </li>
   </div>
 );
