@@ -2,8 +2,9 @@ import React, { Fragment } from "react";
 import "./HeaderPost.scss";
 const HeaderPost = props => (
   <div className="header-post">
+    <img src={props.img} className="avatar" />
     <h1>{props.name}</h1>
-    <h4>{props.time}</h4>
+    <small>{props.time}</small>
   </div>
 );
 
