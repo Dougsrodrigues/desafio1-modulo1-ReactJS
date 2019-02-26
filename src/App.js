@@ -14,7 +14,7 @@ export default class App extends Component {
         time: "há 3 min",
         post:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: path.resolve(__dirname, "..", "public", "images")
+        img: "boy.png"
       },
       {
         id: 2,
@@ -22,7 +22,7 @@ export default class App extends Component {
         time: "há 10 min",
         post:
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        img: "../public/images/girl.png"
+        img: "girl.png"
       }
     ]
   };

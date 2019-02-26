@@ -8,8 +8,9 @@ const Post = props => (
       <HeaderPost
         name={props.post.name}
         time={props.post.time}
-        img={props.post.img}
+        img={props.post.img}      
       />
+      <hr/>
       <p>{props.post.post}</p>
     </li>
   </div>
